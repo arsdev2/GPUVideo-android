@@ -101,7 +101,7 @@ public class GlFilter {
         GLES20.glDeleteBuffers(1, new int[]{vertexBufferName}, 0);
         vertexBufferName = 0;
 
-        handleMap.clear();
+        //handleMap.clear();
     }
 
     //
